@@ -8,6 +8,8 @@ class RecordsBackEnd(admin.ModelAdmin):
         'last_name',
         'email',
         'city',
+        'zipcode',
+        'last_name',
         )
 
 admin.site.register(Record, RecordsBackEnd)
